@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 apt install python3-venv -y
 
 python3 -m venv /srv/web/.venv

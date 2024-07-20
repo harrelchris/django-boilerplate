@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 apt install nginx -y
 
 cp /srv/web/app.conf /etc/nginx/conf.d/app.conf

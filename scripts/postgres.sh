@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 apt install postgresql -y
 
 sudo -u postgres psql -c "CREATE DATABASE web;"
