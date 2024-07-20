@@ -1,1 +1,4 @@
-# django-boilerplate
+# Django Boilerplate
+
+Boilerplate for Django applications
+
