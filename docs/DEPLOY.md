@@ -1,10 +1,14 @@
-# Deploy
+# Deployment
 
 ## Update
+
+Update an existing deployment
 
 ```shell
 sudo bash /srv/web/scripts/update.sh
 ```
+
+---
 
 ## Virtual Machine
 
@@ -68,6 +72,8 @@ sudo bash /srv/web/scripts/gunicorn.sh
 ```
 
 ## NGINX
+
+Set up NGINX as a reverse proxy to Gunicorn
 
 ```shell
 sudo bash /srv/web/scripts/nginx.sh
