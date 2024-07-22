@@ -109,6 +109,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 TIME_ZONE = "UTC"
 
+MEDIA_ROOT = BASE_DIR.parent / ".media/"
+
+MEDIA_URL = "media/"
+
 STATIC_URL = "static/"
 
 STATIC_ROOT = BASE_DIR.parent / ".static/"

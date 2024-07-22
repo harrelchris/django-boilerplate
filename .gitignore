@@ -1,6 +1,7 @@
 .data/
 .idea/
 .local/
+.media/
 .static/
 .venv/
 __pycache__/
